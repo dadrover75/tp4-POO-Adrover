@@ -1,3 +1,5 @@
 John & Doe & admin2@mail
 Paul & Doe & admin3@mail
 John & Doe & admin@mail
+Juan & Garcia & juan@garcia
+El Empleado & Del Mes & empleado@D10

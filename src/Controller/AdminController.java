@@ -1,8 +1,12 @@
 package Controller;
 
+import Admin.Admin;
+import Admin.AdminRepository;
 import Client.*;
+import Frames.Windows.ComponentAdmin;
 import Frames.Windows.ComponentClient;
 import Frames.Windows.ViewAdmin;
+import Interfaces.IAdmin;
 import Interfaces.IClient;
 import Interfaces.IRepository;
 import Interfaces.IUser;
@@ -13,7 +17,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseWheelEvent;
 import java.awt.event.MouseWheelListener;
 import java.util.ArrayList;
-;
 
 public class AdminController {
     public AdminController() {}
@@ -29,6 +32,14 @@ public class AdminController {
             @Override
             public void actionPerformed(ActionEvent e) {
                 ComponentClient();
+                viewAdmin.dispose();
+            }
+        });
+
+        viewAdmin.empleadosButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ComponentAdmin();
                 viewAdmin.dispose();
             }
         });
@@ -152,6 +163,125 @@ public class AdminController {
             }
         });
 
+    }
+
+    public void ComponentAdmin() {
+        ComponentAdmin componentAdmin = new ComponentAdmin();
+        componentAdmin.setContentPane(componentAdmin.panel);
+        componentAdmin.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        componentAdmin.pack();
+        componentAdmin.setVisible(true);
+
+        componentAdmin.textPane1.addMouseWheelListener(new MouseWheelListener() {
+            @Override
+            public void mouseWheelMoved(MouseWheelEvent e) {
+                scrollTextPane(componentAdmin.textPane1, e.getWheelRotation());
+            }
+        });
+
+        IRepository repository = new AdminRepository();
+
+        componentAdmin.VOLVERButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                AdminView();
+                componentAdmin.dispose();
+            }
+        });
+
+        componentAdmin.AGREGARButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                IAdmin admin = new Admin();
+                String name = componentAdmin.NombreTextField2.getText();
+                String lastName = componentAdmin.ApellidoTextField3.getText();
+                String email = componentAdmin.EmailTextField4.getText();
+                try {
+                    admin.createAdmin(name, lastName, email);
+                } catch (Exception exception) {
+                    exception.printStackTrace();
+                }
+                componentAdmin.NombreTextField2.setText("");
+                componentAdmin.ApellidoTextField3.setText("");
+                componentAdmin.EmailTextField4.setText("");
+                JOptionPane.showMessageDialog(null, "Empleado "+name+" "+lastName+" agregado");
+            }
+        });
+
+        componentAdmin.BUSCARButton.addActionListener(new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String email = componentAdmin.SearchTextField1.getText();
+                IAdmin user = new Admin();
+                try {
+                    IUser admin = user.readAdmin(email);
+                    componentAdmin.NombreTextField2.setText(admin.getFirstName());
+                    componentAdmin.ApellidoTextField3.setText(admin.getLastName());
+                    componentAdmin.EmailTextField4.setText(admin.getEmail());
+                } catch (Exception exception) {
+                    exception.printStackTrace();
+                    JOptionPane.showMessageDialog(null, "Empleado no encontrado");
+                }
+            }
+        });
+
+        componentAdmin.EDITARButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String name = componentAdmin.NombreTextField2.getText();
+                String lastName = componentAdmin.ApellidoTextField3.getText();
+                String email = componentAdmin.SearchTextField1.getText();
+                try {
+                    new Admin().updateAdmin(name, lastName, email);
+                } catch (Exception exception) {
+                    exception.printStackTrace();
+                }
+                componentAdmin.SearchTextField1.setText("");
+                componentAdmin.NombreTextField2.setText("");
+                componentAdmin.ApellidoTextField3.setText("");
+                componentAdmin.EmailTextField4.setText("");
+                JOptionPane.showMessageDialog(null, "Empleado "+name+" "+lastName+" editado");
+            }
+        });
+
+        componentAdmin.BORRARButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String email = componentAdmin.SearchTextField1.getText();
+                try {
+                    new Admin().deleteAdmin(email);
+                } catch (Exception exception) {
+                    exception.printStackTrace();
+                }
+                componentAdmin.SearchTextField1.setText("");
+                componentAdmin.NombreTextField2.setText("");
+                componentAdmin.ApellidoTextField3.setText("");
+                componentAdmin.EmailTextField4.setText("");
+                JOptionPane.showMessageDialog(null, "Empleado "+email+" borrado");
+            }
+        });
+
+        componentAdmin.LISTARButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    StringBuilder adminsContent = new StringBuilder();
+                    ArrayList<IUser> admins;
+                    admins = (ArrayList<IUser>) repository.selectAll();
+
+                    for (IUser admin : admins) {
+                        adminsContent.append("Nombre: ").append(admin.getFirstName()).append("\nApellido: ").append(admin.getLastName()).append("\nEmail: ").append(admin.getEmail()).append("\n-------------------\n");
+                    }
+
+
+                    componentAdmin.textPane1.setText(adminsContent.toString());
+                } catch (Exception exception) {
+                    exception.printStackTrace();
+                    JOptionPane.showMessageDialog(null, "No se pudo acceder a clientes");
+                }
+            }
+        });
     }
 
     private void scrollTextPane(JTextPane textPane1, int wheelRotation) {
