@@ -1,0 +1,6 @@
+Pete & Doe & vet2@mail & clinic & l,ma,j
+John & Doe & vet3@mail & clinic & ma,mi,v
+Jane & Doe & vet4@mail & clinic & ma,mi,j
+Mary & Doe & vet5@mail & clinic & l,mi,v
+Sue & Doe & vet6@mail & clinic & l,ma,j
+John & Doe & vet@mail & clinic & l,m,v

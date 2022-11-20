@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="VetBookingSystemTP2:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d21fee57-8bbc-49e9-b22f-95408f0ef721" name="Changes" comment="stable client">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VetBookingSystemTP2.eml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VetBookingSystemTP2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Admin/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Admin/AdminDataSource.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Admin/AdminRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Appointment/Appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Appointment/AppointmentDataSource.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Appointment/AppointmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Appointment/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client/ClientDataSource.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client/ClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Config/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/LogIn.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/LogIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Resources/basura.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Resources/caja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Resources/circulo-cruzado.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Resources/documento.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Resources/formulario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Resources/hogar (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Resources/hogar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Resources/lapiz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Resources/llamada-telefonica (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Resources/llamada-telefonica.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Resources/marcador-de-mapa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Resources/mas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Resources/pata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Resources/sobre (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Resources/sobre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Resources/usuario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Resources/vetBanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/VetFrameHome.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/VetFrameHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User/IUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vet/Vet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vet/VetDataSource.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vet/VetRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2Fbj7Ql9uuCPRsQWWuz1mRnLJSV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "118",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "327",
+    "last_opened_file_path": "C:/Users/computadora/Desktop/VetBookingSystemTP2",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "configurable.group.language"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\computadora\Desktop\POO_2022_TP2_gestionTurnosVeterinaria_Adrover\VetBookingSystemTP2\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\computadora\Desktop\POO_2022_TP2_gestionTurnosVeterinaria_Adrover\VetBookingSystemTP2\src\Frames\Windows" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Vet" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JAR Application.VetBookingSystemTP2.jar">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="VetBookingSystemTP2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VetBookingSystemTP2.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/VetBookingSystemTP2_jar/VetBookingSystemTP2.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.VetBookingSystemTP2.jar" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d21fee57-8bbc-49e9-b22f-95408f0ef721" name="Changes" comment="" />
+      <created>1664767509369</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664767509369</updated>
+    </task>
+    <task id="LOCAL-00001" summary="before Irepository implementation">
+      <created>1668551744179</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668551744179</updated>
+    </task>
+    <task id="LOCAL-00002" summary="stable pre views">
+      <created>1668871541400</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668871541400</updated>
+    </task>
+    <task id="LOCAL-00003" summary="stable views">
+      <created>1668900380985</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668900380985</updated>
+    </task>
+    <task id="LOCAL-00004" summary="stable client">
+      <created>1668910410256</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668910410256</updated>
+    </task>
+    <task id="LOCAL-00005" summary="stable client">
+      <created>1668912350657</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668912350657</updated>
+    </task>
+    <task id="LOCAL-00006" summary="stable client">
+      <created>1668912465302</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668912465302</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="before Irepository implementation" />
+    <MESSAGE value="stable pre views" />
+    <MESSAGE value="stable views" />
+    <MESSAGE value="stable client" />
+    <option name="LAST_COMMIT_MESSAGE" value="stable client" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassCastException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Admin/Admin.java</url>
+          <line>24</line>
+          <properties class="Admin.Admin" method="readAdmin">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>6</line>
+          <properties class="Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
